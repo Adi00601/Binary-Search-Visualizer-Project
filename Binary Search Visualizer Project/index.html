@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary Search Visualization</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+    
+    <div id="mainnav">
+        <div id="nav">
+            <h1 id="h11">Binary Search Visualizer</h1>
+          </div> 
+    </div>    
+     
+    <div id="control">
+
+        <div id="auto">        
+            <button  class="random" onclick="generatearray()">Generate Random Array</button>
+        </div> 
+
+        <div id="ip">
+            <label class="input" for="fname">Search Element</label>
+        </div>
+
+        <div class="custom">
+        <input class="inputArray" type="number" id="fname">
+        </div>
+
+        <div class="custom">
+            <button id="search" onclick="BinarySearch()">Search</button>
+
+        </div>
+
+    </div>
+
+    <div>
+        <label id="speed1" for="speed"> Increase Duration Of Visualization (ms) </label>
+        <input type="range" id="speed" min="100" max="5000" value="1000">
+    </div>     
+    
+    <div id="result">
+        <div id="text"></div>
+    </div>
+ 
+
+<div id="mainwindow">
+        <div id="array"></div>  
+</div>
+
+<div id="timecomplex"><h1>Time Complexity : O( log n )</h1></div>    
+
+<div id="greenbox"></div>
+<h1 id="greentext">Green colour shows search space</h1>
+
+<div id="bluebox"></div>
+<h1 id="bluetext">Blue colour shows elements which are <br> not part of search space</h1>
+
+<div id="redbox"></div>
+<h1 id="redtext">Red colour shows middle value <br> in that search space </h1>
+
+
+<div id="goldbox"></div>
+<h1 id="goldtext">If the element is found,<br> its bar turns gold</h1>
+
+</div>
+
+ <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+

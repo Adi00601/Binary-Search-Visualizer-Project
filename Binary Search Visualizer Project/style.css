@@ -1,0 +1,260 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+   width: 100%;
+   height: 100%;
+}
+#main
+{
+     width: 100%;
+     height: 100%;
+     background-color: black;
+     position: relative;
+}
+
+#mainnav{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+}
+
+#h11{
+     font-family: Didot;
+     font-size: 60px;
+     text-transform: uppercase;
+     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMonqKAnSBuW3otuVLHslplQ_pxAMSD6-256kZgRdSxqfTDcbW6HQgwdte9CwcLOqbuKM&usqp=CAU);
+     background-size: cover;
+     background-position: center;
+     background-clip: text;
+     -webkit-background-clip: text;
+     color: transparent;
+}
+
+#control{
+    width: 100%;
+    height: 20%;
+    background-color:black;
+   
+}
+
+#auto{
+      width: 100%;
+      height: 40%;
+      padding-top: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+}
+
+.random{
+     width: 300px;
+     height: 80px;
+     font-size: 20px;
+     background-color: black;
+     color: white;
+     border: 2px solid #FFD700;
+     margin: 20px;
+     
+}
+
+#ip{
+     width: 100%;
+     height: 25%;
+     margin-top: 10px;
+     background-color: black;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 450px;
+}
+
+.input {
+     font-size: 30px;
+     text-transform: uppercase;
+     color: white;
+}
+
+.custom{
+     width: 100%;
+     height: 35%;
+     background-color: black;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 230px;
+}
+
+.inputArray{
+     width: 500px;
+     height: 50px;
+     font-size:22px;
+     padding-left: 20px;
+     border: 3px solid #FFD700;
+}
+
+#search{
+     width: 210px;
+     height: 60px;
+     font-size: 20px;
+     background-color: black;
+     color: white;
+     border: 2px solid #FFD700;
+     margin: 20px;
+     text-transform: uppercase;
+     
+}
+
+#speed1{
+    color: white;
+    margin-left: 50px;
+    margin-top: 140px;
+    font-size: 25px;
+    
+}
+
+#result{
+    width: 100%;
+    height: 5%;
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#text{
+    color: #FFD700;
+   font-size: 32px;
+   margin-top: 40px;
+   text-transform: uppercase;
+
+}
+
+#mainwindow{
+     
+    width: 100%;
+    height: 63%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+#window{
+    width: 70%;
+    height: 80%;
+
+
+}
+
+#timecomplex h1{
+     color: white;
+     position: absolute;
+     top: 470px;
+     left: 50px;
+}
+
+#greenbox {
+    width: 50px;
+    height: 50px;
+    background-color: #90EE90;
+    position: absolute;
+    top: 550px;
+    left: 50px;
+}
+#greentext{
+    color: white;
+    position: absolute;
+    top: 555px;
+    left: 120px;
+}
+
+#bluebox {
+    width: 50px;
+    height: 50px;
+    background-color:lightblue;
+    position: absolute;
+    top: 620px;
+    left: 50px;
+}
+
+#bluetext{
+    color: white;
+    position: absolute;
+    top: 618px;
+    left: 120px;
+}
+
+#redbox {
+    width: 50px;
+    height: 50px;
+    background-color:red;
+    position: absolute;
+    top: 720px;
+    left: 50px;
+}
+
+#redtext{
+    color: white;
+    position: absolute;
+    top: 718px;
+    left: 120px;
+}
+
+#goldbox {
+    width: 50px;
+    height: 50px;
+    background-color:#FFD700;
+    position: absolute;
+    top: 820px;
+    left: 50px;
+}
+
+#goldtext{
+    color: white;
+    position: absolute;
+    top: 820px;
+    left: 120px;
+}
+
+#array {
+    margin-left: 320px;
+    margin-bottom: 130px;
+}
+
+.block {
+    width: 50px; 
+    display: inline-block;
+    text-align: center;
+    vertical-align: bottom;
+    background-color: #90EE90; 
+    transition: height 0.3s ease;
+}
+
+.block_id {
+    display: block;
+    margin-top: 5px;
+}
+.mid_label {
+    position: relative;
+    top: -35px;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+        
